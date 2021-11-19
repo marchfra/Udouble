@@ -26,7 +26,7 @@ double derivative(double (*func)(double x, std::vector<double> args), double x0,
 		exit(1);
 	}*/
 
-	int weights[3] = {-1/2, 0, 1/2};
+	double weights[] = {1./12, -8./12, 0, 8./12, -1./12};
 
 	double val = 0.0;
 	int ho = order >> 1;

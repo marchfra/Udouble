@@ -8,6 +8,6 @@
 #include <vector>
 
 double derivative(double (*func)(double x, std::vector<double> args),
-				  double x0, const std::vector<double>& args = {}, double dx = 1.0, int n = 1, int order = 3);
+				  double x0, const std::vector<double>& args = {}, double dx = .001, int n = 1, int order = 5);
 
 #endif //UDOUBLE_DERIVATIVE_H
