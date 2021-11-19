@@ -3,4 +3,4 @@ project(Udouble)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Udouble main.cpp Udouble.cpp Udouble.h)
+add_executable(Udouble main.cpp Udouble.cpp Udouble.h derivative.cpp derivative.h)
